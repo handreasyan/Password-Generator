@@ -1,0 +1,46 @@
+.container {
+	border: 2px dashed black;
+	display: flex;
+	background-color: silver;
+	flex-direction: column;
+	max-width: 500px;
+	padding:20px;
+}
+
+.pass {}
+.gen_pass_copy_block{}
+
+.pass_length {
+	width:45%;
+	padding:5px;
+}
+.for_copy{
+	width: 45%;
+	padding:5px;
+	cursor: pointer;
+	font-weight: 600;
+}
+input{
+	margin:5px 10px;
+}
+
+.numbers {}
+.symbols {}
+.lowercase {}
+.uppercase {}
+
+.gen{
+	padding:5px;
+	width: 100px;
+	margin: 10px auto;
+	cursor: pointer;
+	font-weight: 600;
+}
+label{
+	display: inline;	
+	width: 110px;
+	cursor: pointer;
+}
+h1{
+	margin: 0 auto 10px auto;
+}
